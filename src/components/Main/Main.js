@@ -655,7 +655,7 @@ export default class Main extends Component {
                 if (e === n.props.className) {
                     n = <VisitedNode testid={n.props.testid} className={n.props.className} wait={timer}></VisitedNode>
                     newNodeList.push(n)
-                    timer = timer + 10;
+                    timer = timer + 40;
                 }
             })
         })
