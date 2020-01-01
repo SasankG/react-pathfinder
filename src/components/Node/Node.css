@@ -1,0 +1,74 @@
+
+#nodeText{
+    font-size: 12pt;
+    color: grey;
+}
+
+.basicNode{
+
+    height: 40px;
+    width: 40px;
+    border: solid .5px #2a6c7d;
+    display: inline-block;
+    transition: transform .2s;
+
+}
+
+.basicNode:hover{
+    background-color: lightgray;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.wallNode{
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    border: solid .5px;
+    display: inline-block;
+}
+
+.visitedNode{
+    height: 40px;
+    width: 40px;
+    border: solid .5px;
+    display: inline-block;
+    background-color: #C7E8F1;
+}
+
+.pathNode{
+    height: 40px;
+    width: 40px;
+    border: solid 0.5px black;
+    display: inline-block;
+    background-color: #2a6c7d;
+    color: white;
+}
+
+.hidden{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: #C7E8F1;
+}
+
+.hiddentwo{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: #151965;
+    color: white;
+    animation: fadein 2s;
+}
+
+.flag{
+    padding-left: 10px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
